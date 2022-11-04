@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Welcome";
+---
+<style>
+	div > h1 {
+		color: blue;
+	}
+</style>
+
+<BaseLayout title={title}>
+
+	<div>
+		<h1>Astro</h1>
+		<p>hi!!</p>
+	</div>
+	<h1>Testing another header</h1>
+</BaseLayout>
